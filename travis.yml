@@ -15,4 +15,4 @@ deploy:
   keep_history: true
   target_branch: master
   on:
-    branch: src
+    branch: main
