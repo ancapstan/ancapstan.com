@@ -1,7 +1,8 @@
 language: python
 python:
   - "3.6"
-env: NIKOLA_DEPLOY=python.ec
+env: 
+  - NIKOLA_DEPLOY=ancapstan.github.io
 install:
   - pip install nox
 script:
